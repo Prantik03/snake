@@ -1,0 +1,18 @@
+.snake{
+    color: rgb(215, 9, 9);
+}
+.ladder{
+    color:greenyellow;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+}
+
+.grid-item{
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+}
